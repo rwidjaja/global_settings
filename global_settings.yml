@@ -3,10 +3,9 @@ overrides:
   "xmla.auth.token.enabled": true
   "aggregate.snowflake.table.names.uppercase": true
   "query.drillthrough.max_rows": 1000
-  "auth.netlogon.computer.name": docker-dev
   "auth.netlogon.enabled": true
-  "Auth.netlogon.domain": ATSCALEDOMAIN.COM
+  "auth.netlogon.computer.name": docker-local
+  "auth.netlogon.domain": ATSCALEDOMAIN.COM
   "auth.netlogon.domaincontroller": atscaledomain.com
   "auth.netlogon.computer.password": password
   "auth.netlogon.netbios.domain": ATSCALEDOMAIN
-  "auth.netlogon.computer.name": docker-local
