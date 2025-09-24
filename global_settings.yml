@@ -5,7 +5,7 @@ overrides:
   "query.drillthrough.max_rows": 1000
   "auth.netlogon.enabled": true
   "auth.netlogon.computer.name": docker-local
-  "auth.netlogon.domain": ATSCALEDOMAIN.COM
+  "auth.netlogon.domain": atscaledomain.com
   "auth.netlogon.domaincontroller": atscaledomain.com
-  "auth.netlogon.computer.password": "password"
+  "auth.netlogon.computer.password": password
   "auth.netlogon.netbios.domain": ATSCALEDOMAIN
