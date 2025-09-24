@@ -7,5 +7,5 @@ overrides:
   "auth.netlogon.computer.name": docker-local
   "auth.netlogon.domain": ATSCALEDOMAIN.COM
   "auth.netlogon.domaincontroller": atscaledomain.com
-  "auth.netlogon.computer.password": password
+  "auth.netlogon.computer.password": "password"
   "auth.netlogon.netbios.domain": ATSCALEDOMAIN
