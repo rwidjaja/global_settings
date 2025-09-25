@@ -11,4 +11,4 @@ overrides:
 #  "auth.netlogon.netbios.domain": ATSCALEDOMAIN
   "auth.xmla.kerberos.enabled": true
   "auth.xmla.kerberos.keytab": /etc/keycloak/atscale.keytab
-  "auth.xmla.kerberos.spn": http/ubuntu-atscale.atscaledomain.com@ATSCALEDOMAIN.COM
+  "auth.xmla.kerberos.spn": "HTTP/ubuntu-atscale.atscaledomain.com@ATSCALEDOMAIN.COM"
