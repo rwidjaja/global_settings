@@ -3,12 +3,6 @@ overrides:
   "xmla.auth.token.enabled": true
   "aggregate.snowflake.table.names.uppercase": true
   "query.drillthrough.max_rows": 1000
-#  "auth.netlogon.enabled": true
-#  "auth.netlogon.computer.name": docker-local
-#  "auth.netlogon.domain": atscaledomain.com
-#  "auth.netlogon.domaincontroller": atscaledomain.com
-#  "auth.netlogon.computer.password": password
-#  "auth.netlogon.netbios.domain": ATSCALEDOMAIN
   "auth.xmla.kerberos.enabled": true
   "auth.xmla.kerberos.keytab": /etc/keycloak/atscale.keytab
   "auth.xmla.kerberos.spn": "HTTP/ubuntu-atscale.atscaledomain.com@ATSCALEDOMAIN.COM"
