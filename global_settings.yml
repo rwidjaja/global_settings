@@ -9,3 +9,6 @@ overrides:
 #  "auth.netlogon.domaincontroller": atscaledomain.com
 #  "auth.netlogon.computer.password": password
 #  "auth.netlogon.netbios.domain": ATSCALEDOMAIN
+  "auth.xmla.kerberos.enabled": true
+  "auth.xmla.kerberos.keytab": /etc/keycloak/atscale.keytab
+  "auth.xmla.kerberos.spn": http/ubuntu-atscale.atscaledomain.com@ATSCALEDOMAIN.COM
